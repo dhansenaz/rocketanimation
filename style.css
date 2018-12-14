@@ -232,7 +232,7 @@ iframe{
     box-shadow: var(--shadow);
 }
 .box-marketing{
-    text-align: center;
+    text-align: left;
     padding: 1.5rem 2rem;
     box-shadow: var(--shadow);
     background: #13c4a3;
@@ -250,7 +250,7 @@ iframe{
     background: #99e1d9;
 }
 .box-support{
-    text-align: center;
+    text-align: left;
     padding: 1.5rem 2rem;
     box-shadow: var(--shadow);
     background: #13c4a3;
@@ -340,15 +340,20 @@ iframe{
 }
 
 .portfolio{
+    margin:0 auto;
     display: grid;
-    grid-gap: 20px;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    margin:15px;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    margin:20px;
 }
 .portfolio img{
     width:100%;
     box-shadow: var(--shadow);
 
+}
+.portfolio-title {
+    margin:0 auto;
+    text-align: center;
 }
 footer{
     margin-top:2rem;
