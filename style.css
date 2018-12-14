@@ -54,9 +54,9 @@ img {
 }
 header {
     width: 100%;
-    height: 40vh;
+    height: 10vh;
     /* background: url(/img/car.jpg) no-repeat 50% 50%; */
-    background-color: #262626;
+    background-color: #fff;
     background-size: cover;
     display: table-cell;
 }
@@ -98,8 +98,8 @@ header h1 {
     flex-direction: row;
     width: 100%;
 	height: 20%; 
-    top: 54%;
-    margin:0 auto;
+    /* top: 54%; */
+    /* margin:0 auto; */
     position: relative;
      }
 
@@ -114,7 +114,7 @@ nav {
     position: fixed;
     width: 100%;
     line-height: 60px;
-    z-index: 1;
+    z-index: 4;
 }
 
 nav ul {
@@ -270,6 +270,7 @@ iframe{
     margin-left: 5em;
 }
 .love {
+    z-index: 2;
     width:450px;
     padding-top:50px;
     
@@ -358,38 +359,44 @@ footer{
 }
 
 .circle {
+    z-index: 1;
     flex: 1;
     border-radius: 50%;
     background-color: #13c4a3;
-    width: 60px;
-    height: 60px;
-    left:26%;
+    width: 105px;
+    height: 105px;
+    left:23.5%;
     position: absolute;
     opacity: 0;
     animation: scaleIn 5s infinite cubic-bezier(.36, .11, .89, .32);
+    margin-top:6.5rem;
   }
   .circle2 {
     flex:2;
     border-radius: 50%;
-    background-color: #f3e532;
-    width: 80px;
-    height: 80px;
+    background-color: #13c4a3;
+    width: 30px;
+    height: 30px;
     left:45%;
     position: absolute;
     opacity: 0;
     animation: scaleIn 5s infinite cubic-bezier(.36, .11, .89, .32);
+    margin-top:2rem;
+    
   }
   
   .circle3 {
     flex:2;
     border-radius: 50%;
     background-color: #13c4a3;
-    width: 60px;
-    height: 60px;
+    width: 25px;
+    height: 25px;
     left:66%;
     position: absolute;
     opacity: 0;
-    animation: scaleIn 5s infinite cubic-bezier(.36, .11, .89, .32);
+    animation: scaleIn 8s infinite cubic-bezier(.36, .11, .89, .32);
+    margin-top:2rem;
+    
   }
 
   @keyframes scaleIn {
@@ -461,6 +468,12 @@ footer{
         width:600px;
         height:300px
     }
+    .free {
+        margin-right: 0;
+    }
+    .logo {
+        margin-top:5px;
+    }
 
 }
 
@@ -476,16 +489,23 @@ footer{
         top: 5%;
     }
     .circle {
-        height: 50px;
-        width:50px;
-        top:20%;
+    z-index: 1;
+    flex: 1;
+    border-radius: 50%;
+    background-color: #13c4a3;
+    width: 70px;
+    height: 70px;
+    left:38%;
+    position: absolute;
+    opacity: 0;
+    animation: scaleIn 5s infinite cubic-bezier(.36, .11, .89, .32);
+    margin-top:2rem;
     }
     iframe {
         width:300px;
         height:300px
     }
     .free {
-        margin-bottom: 1.5rem;
         margin-right:0;
     }
     .love-wrapper {
