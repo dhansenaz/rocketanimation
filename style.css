@@ -340,6 +340,24 @@ iframe{
     top: -50px;
     left: calc(50% - 50px);
 }
+.gradient {
+    margin-top:-20px;
+    width: 100%;
+    background-image: linear-gradient(to right, #f125f2 , #13c4a3);
+}
+.gradient-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+.gradient-wrapper2 {
+   margin:0 auto;
+   text-align: center;
+   margin-top: 20px;
+   font-size: 2em;
+   padding:25px;
+}
 
 .portfolio{
     margin:0 auto;
@@ -351,12 +369,17 @@ iframe{
 .portfolio img{
     width:100%;
     box-shadow: var(--shadow);
+    
 
 }
 .portfolio-title {
-    margin:0 auto;
-    text-align: center;
+    align-content: center;
     padding-top:2rem;
+}
+.portfolio-title > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 footer{
     margin-top:2rem;
