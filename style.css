@@ -354,10 +354,26 @@ iframe{
 .gradient-wrapper2 {
    margin:0 auto;
    text-align: center;
-   margin-top: 20px;
+   margin-top: 80px;
    font-size: 2em;
    padding:25px;
 }
+.gradient-wrapper2 > p {
+    text-align: center;
+    font-size: 1em;
+    color:#fff;
+    margin-top:-60px;
+ }
+.hr {
+    width: 80%;
+    height: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#666;
+    border: 0 none;
+    /* margin-top: 100px; */
+    margin-bottom:50px;
+    }
 
 .portfolio{
     margin:0 auto;
