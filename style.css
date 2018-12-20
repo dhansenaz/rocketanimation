@@ -441,7 +441,33 @@ footer {
   animation: scaleIn 8s infinite cubic-bezier(0.36, 0.11, 0.89, 0.32);
   margin-top: 2rem;
 }
+.hero-about {
+  height:800px;;
+  background: linear-gradient( rgba(26, 26, 26, 0.8), rgba(26, 26, 26, 0.8) ), url('/img/hero.jpg');
+  background-size: cover;
+}
+.about-hero-wrapper {
+position: relative;
+margin:0 auto;
+display:grid;
+top:30%;
+text-align: center;
+color:white;
 
+}
+.about-hero-wrapper h1 {
+    margin:0;
+    font-size: 1.8em;
+}
+.about-hero-wrapper p {
+    margin:0;
+    font-size: 1.5em;
+}
+.hero-large {
+    margin:0;
+    font-size: 5em;
+    color:#13c4a3;
+}
 @keyframes scaleIn {
   from {
     transform: scale(0.5, 0.5);
