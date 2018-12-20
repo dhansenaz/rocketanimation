@@ -244,6 +244,7 @@ iframe{
     padding: 1.5rem 2rem;
     box-shadow: var(--shadow);
     background: #99e1d9;
+    
 }
 .box-development{
     text-align: center;
@@ -251,6 +252,7 @@ iframe{
     box-shadow: var(--shadow);
     background: #99e1d9;
 }
+
 .box-support{
     text-align: left;
     padding: 1.5rem 2rem;
@@ -282,7 +284,9 @@ iframe{
     height:30%;
     border-radius: 20px;
     background-color: rgba(0, 0, 0, 0.6);
-    padding: 70px 30px;
+    padding-top:70px;
+    padding-left:20px;
+    padding-right:20px;
     margin-top:1.75rem;
     margin-right: 5em;
     
@@ -311,6 +315,7 @@ iframe{
     background: #13c4a3;
     color: #fff;
     font-size: 18px;
+    border-radius: 10px;
 }
 .free input[type="submit"]:hover
 {
