@@ -101,8 +101,6 @@ header h1 {
   flex-direction: row;
   width: 100%;
   height: 20%;
-  /* top: 54%; */
-  /* margin:0 auto; */
   position: relative;
 }
 
@@ -371,7 +369,6 @@ input[type="password"] {
   margin-right: auto;
   background-color: #666;
   border: 0 none;
-  /* margin-top: 100px; */
   margin-bottom: 50px;
 }
 
@@ -464,35 +461,35 @@ color:white;
     margin:0;
     font-size: 1.5em;
 }
-.about-top-container {
-        display: grid;
-        
-      
-}
-.showcase-about {
-    width:60%;
+.free-about {
     position: relative;
+    border-radius: 20px;
+    background-color: #99e1d9;
+    text-align: center;
+    padding:30px;
+    margin:0 auto;
+    box-shadow: var(--shadow);
+  }
+  .free-about p {
+      padding:25px;
+      font-size: 1.5em;
+  }
+
+  .showcase-about {
+    grid-area: showcase;
     min-height: 400px;
     background: #13c4a3;
+    /* background: linear-gradient(rgba(8, 8, 8, 0),rgba(0, 0, 0, 0.301)), url(img/car.jpg); */
+    background-size: cover;
     background-position: center;
-    padding: 0;
+    padding: 25px;
     display: flex;
     flex-direction: column;
     align-items: start;
     justify-content: center;
     box-shadow: var(--shadow);
-}
+  }
 
-.showcase-text-top {
-    position: relative;;
-    margin:0 auto;
-    width:80%;
-    background:red;
-    border: 1px solid black;
-    border-radius:10px;
-    padding:40px;
-    text-align: right;
-}
 .rocket-avatar {
     position: absolute;
     width:125px;
@@ -500,10 +497,7 @@ color:white;
     top: 15px;
     left: calc(50% - 50px);
 }
-.about-text {
-    width:40%;
-    background-color: gray;
-}
+
 .hero-large {
     margin:0;
     font-size: 5em;
