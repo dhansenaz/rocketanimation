@@ -442,15 +442,15 @@ footer {
   margin-top: 2rem;
 }
 .hero-about {
-  height:800px;;
-  background: linear-gradient( rgba(26, 26, 26, 0.8), rgba(26, 26, 26, 0.8) ), url('/img/hero.jpg');
+  height:500px;;
+  background: linear-gradient( rgba(26, 26, 26, 0.8), rgba(26, 26, 26, 0.8) ), url('./img/hero.jpg');
   background-size: cover;
 }
 .about-hero-wrapper {
 position: relative;
 margin:0 auto;
 display:grid;
-top:30%;
+top:20%;
 text-align: center;
 color:white;
 
@@ -464,11 +464,52 @@ color:white;
     margin:0;
     font-size: 1.5em;
 }
+.about-top-container {
+        display: grid;
+        
+      
+}
+.showcase-about {
+    width:60%;
+    position: relative;
+    min-height: 400px;
+    background: #13c4a3;
+    background-position: center;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    box-shadow: var(--shadow);
+}
+
+.showcase-text-top {
+    position: relative;;
+    margin:0 auto;
+    width:80%;
+    background:red;
+    border: 1px solid black;
+    border-radius:10px;
+    padding:40px;
+    text-align: right;
+}
+.rocket-avatar {
+    position: absolute;
+    width:125px;
+    z-index: 3;
+    top: 15px;
+    left: calc(50% - 50px);
+}
+.about-text {
+    width:40%;
+    background-color: gray;
+}
 .hero-large {
     margin:0;
     font-size: 5em;
-    color:#13c4a3;
+    color:#2f554e;
 }
+
 @keyframes scaleIn {
   from {
     transform: scale(0.5, 0.5);
