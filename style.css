@@ -440,7 +440,7 @@ footer {
 }
 .hero-about {
   height:500px;;
-  background: linear-gradient( rgba(26, 26, 26, 0.8), rgba(26, 26, 26, 0.8) ), url('./img/hero.jpg');
+  background: linear-gradient( rgba(26, 26, 26, 0.7), rgba(26, 26, 26, 0.7) ), url('./img/hero.jpg');
   background-size: cover;
 }
 .about-hero-wrapper {
@@ -501,7 +501,7 @@ color:white;
 .hero-large {
     margin:0;
     font-size: 5em;
-    color:#2f554e;
+    color:#F409F1;
 }
 
 @keyframes scaleIn {
