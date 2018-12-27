@@ -439,13 +439,7 @@ footer {
   margin-top: 2rem;
 }
 .container {
-  text-align:center;
-  top:50%;
-  height:20vh;
-  color:#fff;
-  font-size:36px;
-  font-weight:100;
-  overflow:hidden;
+  
   background-color: #f409f1;
 }
 
@@ -498,7 +492,18 @@ footer {
 .hero-large {
   margin: 0;
   font-size: 5em;
-  color: #f409f1;
+  color: #F408F0;
+}
+.about-text-hero {
+  margin:0 auto;
+  text-align:center;
+  margin-top:-20px;;
+  height:20vh;
+  color:#fff;
+  font-size:36px;
+  font-weight:100;
+  overflow:hidden;
+  padding:50px;
 }
 
 .dropping-texts {
@@ -507,7 +512,7 @@ footer {
   text-align: left;
   height: 40px;
   vertical-align: -1px;
-  margin-top:50px;
+  margin-top:60px;
 }
 
 .dropping-texts > div {
@@ -698,5 +703,27 @@ footer {
   }
   .love {
     padding-top: 0;
+  }
+  .dropping-texts {
+    margin:0 auto;
+    font-size: 1.1em;
+    text-align: center;
+  }
+  .dropping-texts > div {
+    opacity:0;
+    align-items: center;
+  }
+  .container {
+    font-size: 1.1em;
+  }
+  .about-text-hero {
+    position: relative;
+    top:50%;
+    font-size: 15px;
+    padding:10px;
+  }
+  .free-about p {
+    padding: 10px;
+    font-size: 1.2em;
   }
 }
