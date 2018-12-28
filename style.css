@@ -193,6 +193,13 @@ iframe {
   margin-top: 0;
   color: var(--light);
 }
+.video-description {
+  font-size: 1.5rem;
+  color: var(--light);
+  text-align: center;
+  margin:0 auto;
+  padding:20px;
+}
 .top-box {
   background: var(--primary);
   display: grid;
