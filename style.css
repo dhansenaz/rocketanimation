@@ -492,20 +492,19 @@ footer {
   padding:50px;
 }
 .about-container {
-  /* margin:0 auto; */
+  margin:0 auto;
   display: grid;
-  grid-template-columns: 300px 300px 300px;
-  /* grid-template-rows: 400px 150px; */
-  grid-gap: 80px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
+  grid-gap: 40px;
   padding:20px;
-  height:300px;
 }
 
 .card {
-  position: absolute;
+  position: relative;
   width: 300px;
   height: 300px;
   perspective: 500px;
+  margin:0 auto;
 }
 
 .about-content {
@@ -513,7 +512,7 @@ footer {
   width: 100%;
   height: 100%;
   box-shadow: 0 0 15px rgba(0,0,0,0.1);
-
+  
   transition: transform 1s;
   transform-style: preserve-3d;
 }
@@ -538,7 +537,7 @@ footer {
   font-size: 20px;
   border-radius: 5px;
   backface-visibility: hidden;
-  /* padding:20px; */
+  padding:20px;
   
 }
 
