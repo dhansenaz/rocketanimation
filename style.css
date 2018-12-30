@@ -54,7 +54,6 @@ img {
 header {
   width: 100%;
   height: 10vh;
-  /* background: url(/img/car.jpg) no-repeat 50% 50%; */
   background-color: #fff;
   background-size: cover;
   display: table-cell;
@@ -73,29 +72,9 @@ header h1 {
     0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
     0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2),
     0 20px 20px rgba(0, 0, 0, 0.15);
-  /* text-shadow:none; */
-  /* animation: animate 1s infinite linear; */
-}
-/* @keyframes animate{
-        
-        0%
-        {
-            color: #484848;
-            text-shadow: none;
-        }
-        18%
-        {
-            color: #484848;
-            
-        }
-        20%
-        {
-            color: #20A3D9;
-            text-shadow: 0 0 7px #20A3D9, 0 0 20px #fff900;
-            
-        } */
 
-/* } */
+}
+
 #container {
   display: flex;
   flex-direction: row;
@@ -513,51 +492,54 @@ footer {
   padding:50px;
 }
 .about-container {
-  margin:0 auto;
+  /* margin:0 auto; */
   display: grid;
   grid-template-columns: 300px 300px 300px;
   /* grid-template-rows: 400px 150px; */
   grid-gap: 80px;
   padding:20px;
+  height:300px;
 }
 
 .card {
+  position: absolute;
   width: 300px;
   height: 300px;
   perspective: 500px;
-  
 }
 
-.card-content {
-  display:flex;
-  flex-direction: row;
-  justify-content: center;
-  text-align: center;
+.about-content {
+  position: absolute;
   width: 100%;
   height: 100%;
   box-shadow: 0 0 15px rgba(0,0,0,0.1);
+
   transition: transform 1s;
   transform-style: preserve-3d;
-  margin-top:20px;
-    
 }
 
-
-.card:hover .card-content {
+.card:hover .about-content {
   transform: rotateY( 180deg ) ;
   transition: transform 0.5s;
 }
 
 .front,
 .back {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   position: absolute;
   height: 100%;
   width: 100%;
   background: white;
-  color: #03446A;
-  font-size: 40px;
+  color: red;
+  text-align: center;
+  font-size: 20px;
   border-radius: 5px;
   backface-visibility: hidden;
+  /* padding:20px; */
+  
 }
 
 .back {
