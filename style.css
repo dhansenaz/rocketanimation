@@ -429,8 +429,9 @@ footer {
   margin-top: 2rem;
 }
 .container {
-  
+  /* margin-top:-25px; */
   background-color: #f409f1;
+  padding-top:0;
 }
 
 .hero-about {
@@ -487,13 +488,12 @@ footer {
 .about-text-hero {
   margin:0 auto;
   text-align:center;
-  margin-top:-20px;;
   height:20vh;
   color:#fff;
   font-size:36px;
   font-weight:100;
   overflow:hidden;
-  padding:50px;
+  padding-top:0;
 }
 .about-container {
   margin:0 auto;
