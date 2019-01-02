@@ -322,7 +322,7 @@ input[type="password"] {
   margin:0 auto;
   position: absolute;
   top:20%;
-  left:30%;
+  left:40%;
 }
 .avatar {
   width: 100px;
@@ -736,6 +736,16 @@ footer {
   header h1 {
     font-size: 3rem;
     top: 5%;
+  }
+  .free-wrapper {
+    display:flex;
+    justify-items: center;
+    flex-direction: column;
+    justify-content: center;
+    left:0;
+    padding-left:50px;
+    
+
   }
   .circle {
     z-index: 1;
