@@ -318,6 +318,12 @@ input[type="password"] {
   font-weight: bold;
   color: #fff;
 }
+.free-wrapper {
+  margin:0 auto;
+  position: absolute;
+  top:20%;
+  left:30%;
+}
 .avatar {
   width: 100px;
   height: 100px;
