@@ -209,9 +209,7 @@ iframe {
   margin: 15px;
 }
 .box {
-  /* display:flex;
-  flex-direction: column;
-  justify-content: center; */
+  
   background: var(--primary);
   text-align: center;
   padding: 1.5rem 2rem;
@@ -429,7 +427,6 @@ footer {
   margin-top: 2rem;
 }
 .container {
-  /* margin-top:-25px; */
   background-color: #f409f1;
   padding-top:0;
 }
@@ -461,7 +458,6 @@ footer {
   grid-area: showcase;
   min-height: 400px;
   background: #13c4a3;
-  /* background: linear-gradient(rgba(8, 8, 8, 0),rgba(0, 0, 0, 0.301)), url(img/car.jpg); */
   background-size: cover;
   background-position: center;
   padding: 25px;
