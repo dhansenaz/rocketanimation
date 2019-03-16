@@ -72,7 +72,6 @@ header h1 {
     0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
     0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2),
     0 20px 20px rgba(0, 0, 0, 0.15);
-
 }
 
 #container {
@@ -176,8 +175,8 @@ iframe {
   font-size: 1.5rem;
   color: var(--light);
   text-align: center;
-  margin:0 auto;
-  padding-bottom:20px;
+  margin: 0 auto;
+  padding-bottom: 20px;
 }
 .top-box {
   background: var(--primary);
@@ -209,12 +208,11 @@ iframe {
   margin: 15px;
 }
 .box {
-  
   background: var(--primary);
   text-align: center;
   padding: 1.5rem 2rem;
   box-shadow: var(--shadow);
-  margin:0 auto;
+  margin: 0 auto;
 }
 .box-marketing {
   text-align: left;
@@ -245,7 +243,7 @@ iframe {
   border-radius: 5px;
   background: #13c4a3;
   box-shadow: 1px 2px 8px 3px rgb(93, 93, 93);
-  margin:0 auto;
+  margin: 0 auto;
 }
 .info {
   background: var(--primary);
@@ -319,10 +317,10 @@ input[type="password"] {
   color: #fff;
 }
 .free-wrapper {
-  margin:0 auto;
+  margin: 0 auto;
   position: absolute;
-  top:20%;
-  left:40%;
+  top: 20%;
+  left: 40%;
 }
 .avatar {
   width: 100px;
@@ -434,18 +432,17 @@ footer {
 }
 .container {
   background-color: #f409f1;
-  padding-top:0;
+  padding-top: 0;
 }
 
 .hero-about {
-	color: #fff;
-	margin-top: 100px;
-	padding: 50px 0;
- 	position: relative;
-   background: #f125f2;
-   animation:bg 5s linear infinite;
+  color: #fff;
+  margin-top: 100px;
+  padding: 50px 0;
+  position: relative;
+  background: #f125f2;
+  animation: bg 5s linear infinite;
 }
-
 
 .free-about {
   position: relative;
@@ -485,25 +482,25 @@ footer {
 .hero-large {
   margin: 0;
   font-size: 5em;
-  color: #F408F0;
+  color: #f408f0;
 }
 .about-text-hero {
-  margin:0 auto;
-  text-align:center;
-  height:20vh;
-  color:#fff;
-  font-size:36px;
-  font-weight:100;
-  overflow:hidden;
-  padding-top:0;
+  margin: 0 auto;
+  text-align: center;
+  height: 20vh;
+  color: #fff;
+  font-size: 36px;
+  font-weight: 100;
+  overflow: hidden;
+  padding-top: 0;
 }
 .about-container {
-  margin:0 auto;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
   grid-gap: 40px;
-  padding:20px;
-  margin-bottom:20px;
+  padding: 20px;
+  margin-bottom: 20px;
 }
 
 .card {
@@ -511,21 +508,21 @@ footer {
   width: 300px;
   height: 300px;
   perspective: 800px;
-  margin:0 auto;
+  margin: 0 auto;
 }
 
 .about-content {
   position: absolute;
   width: 100%;
   height: 100%;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
-  
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+
   transition: transform 2s;
   transform-style: preserve-3d;
 }
 
 .card:hover .about-content {
-  transform: rotateY( 180deg ) ;
+  transform: rotateY(180deg);
   transition: transform 1s;
 }
 
@@ -544,13 +541,12 @@ footer {
   font-size: 20px;
   border-radius: 5px;
   backface-visibility: hidden;
-  
 }
 
 .back {
   background: #00c09d;
   color: white;
-  transform: rotateY( 180deg );
+  transform: rotateY(180deg);
 }
 
 .dropping-texts {
@@ -559,15 +555,15 @@ footer {
   text-align: left;
   height: 40px;
   vertical-align: -1px;
-  margin-top:60px;
+  margin-top: 60px;
 }
 
 .dropping-texts > div {
-  font-size:0px;
-  opacity:0;
-  margin-left:-30px;
-  position:absolute;
-  font-weight:400;   
+  font-size: 0px;
+  opacity: 0;
+  margin-left: -30px;
+  position: absolute;
+  font-weight: 400;
 }
 
 .dropping-texts > div:nth-child(1) {
@@ -580,71 +576,69 @@ footer {
   animation: roll2 5s linear 1 5s forwards;
 }
 
-
 @keyframes roll {
   0% {
-    font-size:0px;
-    opacity:0;
-    margin-left:-30px;
-    margin-top:0px;
+    font-size: 0px;
+    opacity: 0;
+    margin-left: -30px;
+    margin-top: 0px;
     transform: rotate(-25deg);
   }
   3% {
-    opacity:1;
+    opacity: 1;
     transform: rotate(0deg);
   }
   5% {
-    font-size:inherit;
-    opacity:1;
-    margin-left:0px;
-    margin-top:0px;
+    font-size: inherit;
+    opacity: 1;
+    margin-left: 0px;
+    margin-top: 0px;
   }
   20% {
-    font-size:inherit;
-    opacity:1;
-    margin-left:0px;
-    margin-top:0px;
+    font-size: inherit;
+    opacity: 1;
+    margin-left: 0px;
+    margin-top: 0px;
     transform: rotate(0deg);
   }
   27% {
-    font-size:0px;
-    opacity:0.5;
-    margin-left:20px;
-    margin-top:100px;
+    font-size: 0px;
+    opacity: 0.5;
+    margin-left: 20px;
+    margin-top: 100px;
   }
   100% {
-    font-size:0px;
-    opacity:0;
-    margin-left:-30px;
-    margin-top:0px;
+    font-size: 0px;
+    opacity: 0;
+    margin-left: -30px;
+    margin-top: 0px;
   }
 }
 @keyframes roll2 {
   0% {
-    font-size:0px;
-    opacity:0;
-    margin-left:-30px;
-    margin-top:0px;
+    font-size: 0px;
+    opacity: 0;
+    margin-left: -30px;
+    margin-top: 0px;
     transform: rotate(-25deg);
   }
   3% {
-    opacity:1;
+    opacity: 1;
     transform: rotate(0deg);
   }
   5% {
-    font-size:inherit;
-    opacity:1;
-    margin-left:0px;
-    margin-top:0px;
+    font-size: inherit;
+    opacity: 1;
+    margin-left: 0px;
+    margin-top: 0px;
   }
   100% {
-    font-size:inherit;
-    opacity:1;
-    margin-left:0px;
-    margin-top:0px;
+    font-size: inherit;
+    opacity: 1;
+    margin-left: 0px;
+    margin-top: 0px;
     transform: rotate(0deg);
   }
-  
 }
 
 @keyframes scaleIn {
@@ -737,14 +731,12 @@ footer {
     top: 5%;
   }
   .free-wrapper {
-    display:flex;
+    display: flex;
     justify-items: center;
     flex-direction: column;
     justify-content: center;
-    left:0;
-    padding-left:50px;
-    
-
+    left: 0;
+    padding-left: 50px;
   }
   .circle {
     z-index: 1;
@@ -774,12 +766,12 @@ footer {
     padding-top: 0;
   }
   .dropping-texts {
-    margin:0 auto;
+    margin: 0 auto;
     font-size: 1.2em;
     text-align: center;
   }
   .dropping-texts > div {
-    opacity:0;
+    opacity: 0;
     text-align: center;
   }
   .container {
@@ -787,9 +779,9 @@ footer {
   }
   .about-text-hero {
     position: relative;
-    top:40%;
+    top: 40%;
     font-size: 25px;
-    padding:10px;
+    padding: 10px;
   }
   .free-about p {
     padding: 10px;
