@@ -658,7 +658,21 @@ footer {
     top: 0;
     margin-top: 16px;
   }
-
+  .about-text-hero {
+    position: relative;
+    top: 20%;
+    font-size: 25px;
+    padding: 10px;
+  }
+  .dropping-texts {
+    margin: 0 auto;
+    font-size: 1.2em;
+    text-align: center;
+  }
+  .dropping-texts > div {
+    opacity: 0;
+    text-align: center;
+  }
   nav ul {
     max-height: 0px;
     background: #000;
@@ -735,8 +749,9 @@ footer {
     justify-items: center;
     flex-direction: column;
     justify-content: center;
-    left: 0;
-    padding-left: 20%;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%)
   }
   .circle {
     z-index: 1;
@@ -758,7 +773,7 @@ footer {
   .free {
     margin-right: 0;
     margin-top: 50px;
-    width:250px;
+    /* width:250px; */
   }
   .love-wrapper {
     margin-left: 0;
