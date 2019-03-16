@@ -736,7 +736,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     left: 0;
-    padding-left: 50px;
+    padding-left: 20%;
   }
   .circle {
     z-index: 1;
@@ -758,6 +758,7 @@ footer {
   .free {
     margin-right: 0;
     margin-top: 50px;
+    width:250px;
   }
   .love-wrapper {
     margin-left: 0;
@@ -779,7 +780,7 @@ footer {
   }
   .about-text-hero {
     position: relative;
-    top: 40%;
+    top: 30%;
     font-size: 25px;
     padding: 10px;
   }
