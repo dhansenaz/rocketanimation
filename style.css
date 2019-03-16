@@ -297,11 +297,14 @@ input[type="password"] {
   color: #fff;
   font-size: 18px;
   border-radius: 10px;
+  transition:ease-in-out 1s;
 }
 .free input[type="submit"]:hover {
   cursor: pointer;
   background: #fff;
   color: #585858;
+  transition:ease-in-out 1s;
+  
 }
 .free h1 {
   margin: 0;
