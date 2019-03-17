@@ -297,14 +297,13 @@ input[type="password"] {
   color: #fff;
   font-size: 18px;
   border-radius: 10px;
-  transition:ease-in-out 1s;
+  transition: ease-in-out 1s;
 }
 .free input[type="submit"]:hover {
   cursor: pointer;
   background: #fff;
   color: #585858;
-  transition:ease-in-out 1s;
-  
+  transition: ease-in-out 1s;
 }
 .free h1 {
   margin: 0;
@@ -766,8 +765,8 @@ footer {
     flex-direction: column;
     justify-content: center;
     left: 50%;
-    top:50%;
-    transform: translate(-50%,-50%)
+    top: 50%;
+    transform: translate(-50%, -50%);
   }
   .circle {
     z-index: 1;
