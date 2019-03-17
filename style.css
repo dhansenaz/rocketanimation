@@ -402,11 +402,11 @@ footer {
   background-color: #13c4a3;
   width: 105px;
   height: 105px;
-  left: 23.5%;
+  left: 30%;
   position: absolute;
   opacity: 0;
   animation: scaleIn 5s infinite cubic-bezier(0.36, 0.11, 0.89, 0.32);
-  margin-top: 6.5rem;
+  margin-top: 10rem;
 }
 .circle2 {
   flex: 2;
@@ -661,6 +661,19 @@ footer {
     top: 0;
     margin-top: 16px;
   }
+  .circle {
+    z-index: 1;
+    flex: 1;
+    border-radius: 50%;
+    background-color: #13c4a3;
+    width: 70px;
+    height: 70px;
+    left: 50%;
+    position: absolute;
+    opacity: 0;
+    animation: scaleIn 5s infinite cubic-bezier(0.36, 0.11, 0.89, 0.32);
+    margin-top: 10rem;
+  }
   .about-text-hero {
     position: relative;
     top: 20%;
@@ -723,7 +736,7 @@ footer {
     top: 5%;
   }
   iframe {
-    width: 600px;
+    width: 500px;
     height: 300px;
   }
   .free {
@@ -763,11 +776,11 @@ footer {
     background-color: #13c4a3;
     width: 70px;
     height: 70px;
-    left: 38%;
+    left: 50%;
     position: absolute;
     opacity: 0;
     animation: scaleIn 5s infinite cubic-bezier(0.36, 0.11, 0.89, 0.32);
-    margin-top: 2rem;
+    margin-top: 3rem;
   }
   iframe {
     width: 300px;
